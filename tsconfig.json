@@ -1,0 +1,22 @@
+{
+    "compileOnSave": true,
+    "include": [
+        "src/**/*"
+    ],
+    "compilerOptions": {
+        "allowJs": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "watch": true,
+        "removeComments": true,
+        "outDir": "./dist",
+        "target": "es2017",
+        "baseUrl": "./src",
+        "paths": {
+            "@root/*": ["./*"],
+            "@service/*": ["./service/*"],
+            "@model/*": ["./model/*"],
+            "@embed/*": ["./embed/*"]
+        }
+    }
+}
